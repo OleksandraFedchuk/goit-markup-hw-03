@@ -63,18 +63,20 @@ letter-spacing: 0.02em;
 }
 .container-header{
     display: flex;
-    align-items: center;
+   align-items: center;
+   justify-content: space-between;
    
 }
 .header {
 color:#FFFFFF ;
 padding-top: 24px;
 padding-bottom: 24px;
+border: 1px solid #E7E9FC;
 }
 
 .navigation-list{
     display: flex;
-    justify-content: start;
+    align-items: center;
     margin-right: auto;
 }
 
@@ -162,6 +164,8 @@ align-content: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--third-title-color);
+    margin-right: auto;
+    align-items: center;
 }
 
 .mail-link:is(:hover, :focus) {
@@ -186,12 +190,8 @@ tel.link:is(:hover, :focus) {
 /* !<!-- Головний контент,секція1 --> */
 
 .descrition {
-    /* height: 683px; ;
-    background-color: var(--second-title-color);
-    margin: 0 auto;
-    padding-top: 188px ;
-    padding-bottom: 292px; */
-    margin-left: auto;
+
+margin-left: auto;
 margin-right: auto;
 padding-top: 188px;
 padding-bottom: 188px;
@@ -249,6 +249,7 @@ padding-bottom: 156px;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
+width: 264px;
 
 }
 .strategy-title {
@@ -257,6 +258,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--second-title-color);
+margin-bottom: 8px;
 }
 .strategy-text {
 font-weight: 400;
