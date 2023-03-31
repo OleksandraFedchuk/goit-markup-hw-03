@@ -91,6 +91,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
 padding: 0px; 
+margin-right: 76px;
+
 }
 
 .main-logo-studio {
@@ -102,7 +104,6 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--second-title-color);
-margin-right: 76px;
 
 }
 
@@ -190,7 +191,7 @@ margin-left: auto;
 margin-right: auto;
 padding-top: 188px;
 padding-bottom: 188px;
-max-width: 2560px;
+/* max-width: 1440px; */
 text-align: center;
 background-color: var(--second-title-color);
 }
@@ -220,16 +221,18 @@ background-color: var(--second-title-color);
     padding: 16px 32px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
+    cursor: pointer;
 }
+
 .description-btn:is(:hover, :focus) {
     background-color: #404BBF;
-    cursor: pointer;
 }
 
 /*---------Strategy, section2----------*/
 
 .strategy-list {
-padding-top: 37px ;
+padding-top: 120px ;
 padding-bottom: 120px;
 }
 .strategy-main-title {
@@ -237,16 +240,11 @@ padding-bottom: 120px;
 }
 .strategy-list-content {
     display: flex;
-    justify-content: space-between;
     gap:24px;
 
 }
 .strategy-item {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
 width: 264px;
-
 }
 .strategy-title {
 font-weight: 500;
@@ -287,6 +285,7 @@ color: #434455;
     margin-top: 72px;
 }
 .perfomance-item {
+    width: 360px ;
 }
 
 /* --------------------------------Our team, section 4 ------------------------- */
@@ -294,7 +293,7 @@ color: #434455;
 .team {
     background-color: #F4F4FD; 
     padding-top: 120px ;
-    padding-bottom: 0;
+    padding-bottom: 120px;
 
 }
 .team-title {
@@ -304,14 +303,11 @@ color: #434455;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--second-title-color);
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .team-members {
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 24px;
-    padding-bottom: 120px;
 }
 
 .team-members-description{
@@ -320,6 +316,8 @@ color: #434455;
 }
 .team-members-item {
     background-color: #FFFFFF;
+    width: 264px;
+    border-radius: 0px 0px 4px 4px;
 }
 .team-members-item-title {
 font-weight: 500;
@@ -328,6 +326,7 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--second-title-color);
+margin-bottom: 8px; ;
 }
 .team-members-item-text {
     line-height: 1.5 ;
@@ -349,6 +348,11 @@ color: var(--second-title-color);
 }
 
 .footer-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -371,18 +375,18 @@ color: var(--second-title-color);
 
 .advantages {
     margin-top: 96px;
-    margin-bottom: 72px;
+    margin-bottom: 120px;
 }
 .advantages-title {
+
 }
 .advantages-list {
     display: flex;
     justify-content: center;
     gap: 24px;
     align-items: center;
-    border: 1px
-    text-transform: none;
     color: #4D5AE5;
+    margin-bottom: 72px;
     
 
 }
@@ -393,9 +397,6 @@ color: var(--second-title-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;
@@ -403,13 +404,14 @@ color: var(--second-title-color);
     border-radius: 4px;
     background: #F4F4FD; 
     padding: 12px 24px ;
+    cursor: pointer;
 
 }
 
 .btn:is(:hover, :focus) {
     color: #fffffF;
     background-color:  #404BBF;
-    cursor: pointer;
+    border-color: transparent;
 }
 
 /* ------------------Full list of advantages--------------- */
@@ -417,10 +419,7 @@ color: var(--second-title-color);
 .container-possibilities{
 
 }
-.possibilities {
-    margin-top: 72px;
-    margin-bottom: 120px;
-}
+
 .possibilities-title {
 }
 .possibilities-list {
@@ -428,13 +427,13 @@ color: var(--second-title-color);
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-
+    
 }
 .possibilities-item {
 max-width: calc((100% - 48px) / 3);
 }
 .possibilities-item-link{
-
+display: block;
 }
 .possibilities-item-name {
 font-weight: 500;
@@ -442,6 +441,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--second-title-color);
+margin-bottom: 8px;
 }
 .possibilities-item-text {
     font-size: 16px;
@@ -453,4 +453,5 @@ color: var(--second-title-color);
 .possibilities-text-container{
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
+    border-top: none;
 }
