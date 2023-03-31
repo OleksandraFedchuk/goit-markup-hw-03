@@ -285,7 +285,7 @@ color: #434455;
     margin-top: 72px;
 }
 .perfomance-item {
-    width: 360px ;
+    width: calc((100% - 48px) / 3);
 }
 
 /* --------------------------------Our team, section 4 ------------------------- */
@@ -316,7 +316,7 @@ color: #434455;
 }
 .team-members-item {
     background-color: #FFFFFF;
-    width: 264px;
+    width: calc((100% - 48px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 .team-members-item-title {
@@ -374,8 +374,8 @@ margin-bottom: 8px; ;
 /* ------------------------Section1, our advantages --------------- */
 
 .advantages {
-    margin-top: 96px;
-    margin-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 .advantages-title {
 
