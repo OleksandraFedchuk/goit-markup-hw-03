@@ -78,6 +78,7 @@ border: 1px solid #E7E9FC;
     display: flex;
     align-items: center;
     margin-right: auto;
+    
 }
 
 
@@ -91,7 +92,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
 padding: 0px; 
-margin-right: 76px;
+
 
 }
 
@@ -123,6 +124,7 @@ color: var(--second-title-color);
     display: flex;
     align-items: center;
     gap: 40px;
+    margin-left: 76px;
 
 }
 
