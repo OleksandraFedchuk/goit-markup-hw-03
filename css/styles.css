@@ -63,9 +63,9 @@ letter-spacing: 0.02em;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    /* outline: 1px solid #404bbf; */
+    outline: 1px solid #404bbf;
 }
-.container-header{
+.container-header {
     display: flex;
    align-items: center;
    justify-content: space-between;
@@ -120,7 +120,7 @@ letter-spacing: 0.02em;
 color: var(--second-title-color);
 }
 
-.navigation:is(:hover. :focus) {
+.navigation:is(:hover, :focus) {
     color: #404bbf ; 
 }
 
@@ -156,7 +156,6 @@ align-content: center;
     justify-content: flex-end;
     align-content: center;
     gap: 40px;
-   
 }
 .mail {
 
@@ -242,6 +241,7 @@ background-color: var(--second-title-color);
 .strategy-list {
 padding-top: 120px ;
 padding-bottom: 120px;
+background-image: linear-gradient(40deg, blue, yellow);
 
 }
 .strategy-main-title {
